@@ -1,5 +1,6 @@
-const azneLibrary = (a, b) => {
-  return console.log(a + b)
+const azneLibrary = (name) => {
+  const nameText = name || '名無し'
+  return console.log('こんにちは！' + nameText + 'さん！')
 }
-// azneLibrary(3, 2)
+
 module.exports = azneLibrary
